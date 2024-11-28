@@ -1,0 +1,10 @@
+{
+	"description": "Use q5 with Deno to render an image.",
+	"author": "quinton-ashley",
+	"tasks": {
+		"start": "deno --unstable-node-globals -A server.js"
+	},
+	"imports": {
+		"@q5/q5": "jsr:@q5/q5@2"
+	}
+}
